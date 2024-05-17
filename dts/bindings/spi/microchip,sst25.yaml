@@ -1,0 +1,18 @@
+
+description: |
+  This binding provides a raw SPI interface to the Microchip SST25 SPI-flash familiy.
+
+compatible: "microchip,sst25"
+
+include: [spi-device.yaml, "jedec,spi-nor-common.yaml"]
+
+properties:
+  wp-gpios:
+    type: phandle-array
+    description: WPn pin
+  hold-gpios:
+    type: phandle-array
+    description: HOLDn pin
+  reset-gpios:
+    type: phandle-array
+    description: RESETn pin

@@ -1,0 +1,11 @@
+menuconfig SST25
+	bool "microchip SST25 family of SPI-flashs"
+	default n
+	select SPI
+	help
+	  Enable driver for SST25 driver.
+
+if SST25
+
+
+endif
