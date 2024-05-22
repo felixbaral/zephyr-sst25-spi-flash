@@ -3,3 +3,5 @@
 #
 
 add_subdirectory(src)
+
+#include(${ZEPHYR_BASE}/drivers/flash/spi_nor.h)

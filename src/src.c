@@ -8,7 +8,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define DT_DRV_COMPAT jedec_spi_nor
+#define DT_DRV_COMPAT microchip_sst25
 
 #include <errno.h>
 #include <zephyr/drivers/flash.h>
